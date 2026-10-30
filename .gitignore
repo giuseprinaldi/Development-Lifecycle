@@ -1,0 +1,28 @@
+# Node
+node_modules/
+frontend/dist/
+frontend/.env
+*.log
+npm-debug.log*
+
+# Python (backend, worker)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+backend/.env
+worker/.env
+*.egg-info/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets: never commit tokens
+.env
+.env.*
+!.env.example
